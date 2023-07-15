@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="sub-container">
+                <div id="team-home">
+                    <h3 class="team">HOME</h3>
+                    <h1 class="scr" id="scr-home">0</h1>
+                    <div class="scr-add">
+                        <button class="scr-num" onclick="add1h()">+1</button>
+                        <button class="scr-num" onclick="add2h()">+2</button>
+                        <button class="scr-num" onclick="add3h()">+3</button>
+                    </div>
+                    <h3 class="team foul">FOUL</h3>
+                    <h2 class="scr" id="foul-home">0</h2>
+                    <button class="scr-num" onclick="add1fh()">+1</button>
+                </div>
+                <div id="time-period">
+                    <h1 class="scr" id="scr-time">00:00</h1>
+                    <p class="team period">PERIOD</p>
+                    <h2 class="scr" id="scr-per">0</h2>
+                    <button class="scr-num" onclick="add1p()">+1</button>
+                </div>
+                <div id="team-guest">
+                    <h3 class="team">GUEST</h3>
+                    <h1 class="scr" id="scr-guest">0</h1>
+                    <div class="scr-add">
+                        <button class="scr-num" onclick="add1g()">+1</button>
+                        <button class="scr-num" onclick="add2g()">+2</button>
+                        <button class="scr-num" onclick="add3g()">+3</button>
+                    </div>
+                    <h3 class="team foul ">FOUL</h3>
+                    <h2 class="scr" id="foul-guest">0</h2>
+                    <button class="scr-num" onclick="add1fg()">+1</button>
+                </div>
+            </div>
+            <div>
+                <button class="reset" onclick="reset()">New Game</button>
+                <button class="reset" onclick="resetTime()">Reset time</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

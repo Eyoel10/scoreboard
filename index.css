@@ -1,0 +1,97 @@
+@font-face {
+    font-family: cursed;
+    src: url("CursedTimerUlil-Aznm.ttf")
+}
+
+body {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background: #1B244A;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    margin: 30px 0px 21px;
+    font-size: 40px;
+}
+
+.scr {
+    font-family: cursed;
+    font-size: 90px;
+    background: #080001;
+    color: #F94F6D;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.scr-num {
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    padding: 10px 8px;
+    flex-shrink: 0;
+    font-size: 18px;
+    font-family: cursed;
+    margin: 26px 0px 40px;
+    background: #1B244A;
+    color: #9AABD8;
+}
+
+.scr-add {
+    display:flex;
+    width: 155px;
+    justify-content: space-between;
+    color: #9AABD8;
+    font-family: cursed;
+}
+
+#scr-time {
+    padding: 5px 10px;
+    width: 300px;
+}
+
+#scr-per {
+    font-size: 40px;
+    width: 50px;
+    padding: 5px;
+    margin: 0 auto;
+    color: aqua;
+}
+
+#foul-home {
+    font-size: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0 auto;
+    color: green;
+}
+
+#foul-guest {
+    font-size: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0 auto;
+    color: green;
+}
+
+.foul {
+    margin: 0 0 10px;
+}
+
+.reset {
+    margin: 20px 10px 30px;
+    padding: 10px 15px;
+    background: inherit;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: cursed;
+    font-size: 18px;
+    color: #9AABD8;
+}
